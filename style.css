@@ -130,7 +130,7 @@ label {
     cursor: pointer;
     width: 5.2rem;
     height: 2.7rem;
-    background-color: var(--toggle-bg-dark);
+    background-color: var(--toggle-bg-light);
     border-radius: 100px;
     position: relative;
     align-self: center;
