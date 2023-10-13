@@ -43,14 +43,13 @@
 }
 
 html[data-theme="dark"] {
-    --light-bg: hsl(230, 17%, 14%);
-    --light-bg-top: hsl(232, 19%, 15%);
-
-    --light-card: hsl(228, 28%, 20%);
-
-    --light-text1: hsl(228, 34%, 66%);
-    --light-text2: hsl(0, 0%, 100%);
+--light-bg: hsl(0, 0%, 100%);
+--light-bg-top: hsl(225, 100%, 98%);
+--light-card: hsl(227, 47%, 96%);
+--light-text1: hsl(228, 12%, 44%);
+--light-text2: hsl(230, 17%, 14%);
 }
+
 
 html.transition,
 html.transition *,
@@ -77,7 +76,7 @@ html {
 body{
     font-family: var(--font-inter);
     margin: 3rem;
-    background: var(--light-bg);
+    background: var(--dark-bg);
 }
 
 /* header section */
@@ -87,13 +86,13 @@ header {
 }
 
 header .title{
-    color: var(--light-text2);
+    color: var(--dark-text2);
 }
 
 header .text {
     font-size: 14px;
     font-weight: bold;
-    color: var(--light-text1);
+    color: var(--dark-text1);
 }
 
 /* main style */
@@ -111,7 +110,7 @@ main {
 
 .main-title p {
     font-size: 14px;
-    color: var(--light-text1);
+    color: var(--dark-text1);
     align-self: center;
     font-weight: bold;
 }
@@ -131,7 +130,7 @@ label {
     cursor: pointer;
     width: 5.2rem;
     height: 2.7rem;
-    background-color: var(--toggle-bg-light);
+    background-color: var(--toggle-bg-dark);
     border-radius: 100px;
     position: relative;
     align-self: center;
@@ -168,7 +167,7 @@ input:checked + label:after {
     height: 22rem;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    background: var(--light-card);
+    background: var(--dark-card);
     border-radius: 6px;
     margin-top: 50px;
 }
@@ -186,7 +185,7 @@ input:checked + label:after {
 .card-header p {
     font-size: 12px;
     font-weight: bold;
-    color: var(--light-text1);
+    color: var(--dark-text1);
 }
 
 .card-body{
@@ -195,7 +194,7 @@ input:checked + label:after {
 }
 .card-body h1 {
     font-size: 6rem;
-    color: var(--light-text2);
+    color: var(--dark-text2);
     text-align: center;
 }
 
@@ -203,7 +202,7 @@ input:checked + label:after {
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: var(--light-text1);
+    color: var(--dark-text1);
 }
 
 /* card footer */
@@ -263,7 +262,7 @@ input:checked + label:after {
 .overview-title {
     font-size: 3rem;
     font-weight: bold;
-    color: var(--light-text1);
+    color: var(--dark-text1);
     letter-spacing: 2px;
 }
 
@@ -272,7 +271,7 @@ input:checked + label:after {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     height: 20rem;
-    background: var(--light-card);
+    background: var(--dark-card);
     margin-top: 25px;
     border-radius: 6px;
 }
@@ -293,7 +292,7 @@ input:checked + label:after {
     font-size: 6rem;
     margin-top: 25px;
     border-radius: 6px;
-    color: var(--light-text2);
+    color: var(--dark-text2);
     margin: auto;
     grid-column: 1/2;
 }
