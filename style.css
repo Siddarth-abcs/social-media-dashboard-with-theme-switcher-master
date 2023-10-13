@@ -42,7 +42,7 @@
 --hover : #cdced5;
 }
 
-html[data-theme="dark"] {
+html[data-theme="light"] {
 --light-bg: hsl(0, 0%, 100%);
 --light-bg-top: hsl(225, 100%, 98%);
 --light-card: hsl(227, 47%, 96%);
